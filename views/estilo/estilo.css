@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BOOT CSS */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.banner{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w33 {
+    width: 33.3%;
+}
+
+/* header */
+header{
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.cabecalho h2, .cabecalho p {
+    margin-top: 18px;
+}
+
+.cabecalho p {
+   
+}
+
+.cabecalho p a{
+    background-color: white;
+    padding: 4px 8px;
+    color: brown;
+    border-radius: 10%;
+    color: brown;
+}
+
+/* produtos */
+section.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.produto-image img {
+    width: 100%;
+}
+
+.produto-infos p {
+    color: gray;
+    text-align: center;
+}
+
+.produto-infos a {
+    margin-top: 3px;
+    background-color: brown;
+    color:white;
+    border-radius: 10%;
+    text-align: center;
+}
+
+/* page pedido */
+table {
+    width: 100%;
+    margin-top: 28px;
+}
+
+table tr {
+    text-align: center;
+    
+}
+
+table tr td {
+    /*background-color: aqua;*/
+    padding: 18px;
+}
+
+table td i {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.troco {
+    margin-top: 22px;
+}
+
+input[type=submit]{
+    margin-top: 8px;
+    color:brown;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+/* Pedido em andamento*/
+section.itens{
+    margin-top:22px;
+}
+
+.fim {
+    margin-top: 32px;
+}
