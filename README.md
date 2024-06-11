@@ -1,6 +1,6 @@
 <h1> Sistema simples de Delivery, foco no BackEnd </h1>
 
-Desenvolvido usando o padrão MVC
+Desenvolvido usando o padrão MVC e PHP puro
 
 Para testar mude a constante INITIAL_PATH na index.php, e os caminhos css em /views/pedido.php /views/home.php
 
